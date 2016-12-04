@@ -14,9 +14,14 @@
 		"type": "git",
 		"url": "https://github.com/stuartpittaway/m2tklib.git"
 	},
-    "export": {
-        "include": "m2tklib_arduino_u8g",
-		"exclude": "m2tklib_arduino_u8g/examples"
+  "export": {
+	
+	 "exclude":
+    [
+        "m2tklib_arduino_u8g/examples/*",
+		"*.txt"
+    ]
+	
     },
     "frameworks": "arduino",
     "platforms": "atmelavr"	
