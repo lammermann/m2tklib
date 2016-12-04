@@ -17,13 +17,7 @@
         "include": "m2tklib_arduino_u8g"
     },
     "frameworks": "arduino",
-    "platforms": "atmelavr",
+    "platforms": "atmelavr"
 	
-	"dependencies":
-	[
-		{
-			"name": "U8glib"
-		}
-	]
-
+	
 }
