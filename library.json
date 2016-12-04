@@ -1,0 +1,17 @@
+{
+    "name": "m2tklib_u8glib",
+    "keywords": "m2tklib, gui",
+    "description": "A portable graphical and character user interface (GUI+CUI) library for embedded systems.",
+    "authors":
+    {
+        "name": "olikraus",
+        "url": "https://github.com/olikraus/m2tklib"
+    },
+    "version": "1.11",
+    "downloadUrl": "https://github.com/stuartpittaway/m2tklib/blob/master/m2tklib_arduino_u8g_1.11.zip",
+    "export": {
+        "include": "M2tklib"
+    },
+    "frameworks": "arduino",
+    "platforms": "atmelavr"
+}
