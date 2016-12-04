@@ -8,9 +8,9 @@
         "url": "https://github.com/olikraus/m2tklib"
     },
     "version": "1.11",
-    "downloadUrl": "https://github.com/stuartpittaway/m2tklib/blob/master/m2tklib_arduino_u8g_1.11.zip",
+    "downloadUrl": "https://github.com/stuartpittaway/m2tklib",
     "export": {
-        "include": "M2tklib"
+        "include": "m2tklib_arduino_u8g"
     },
     "frameworks": "arduino",
     "platforms": "atmelavr"
