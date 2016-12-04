@@ -5,7 +5,8 @@
     "authors":
     {
         "name": "olikraus",
-        "url": "https://github.com/olikraus/m2tklib"
+        "url": "https://github.com/olikraus/m2tklib",
+		"email": "olikraus@gmail.com"
     },
     "version": "1.11",
 	"repository":
@@ -17,7 +18,5 @@
         "include": "m2tklib_arduino_u8g"
     },
     "frameworks": "arduino",
-    "platforms": "atmelavr"
-	
-	
+    "platforms": "atmelavr"	
 }
