@@ -15,6 +15,7 @@
 		"url": "https://github.com/stuartpittaway/m2tklib.git"
 	},
     "export": {
+		"exclude": "m2tklib_arduino_u8g\examples"
         "include": "m2tklib_arduino_u8g"
     },
     "frameworks": "arduino",
