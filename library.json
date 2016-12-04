@@ -16,7 +16,7 @@
 	},
     "export": {
         "include": "m2tklib_arduino_u8g",
-		"exclude": "m2tklib_arduino_u8g\examples"
+		"exclude": "m2tklib_arduino_u8g/examples"
     },
     "frameworks": "arduino",
     "platforms": "atmelavr"	
