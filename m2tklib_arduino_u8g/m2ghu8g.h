@@ -1,11 +1,11 @@
 /*
 
   m2ghutility/u8g.h
-  
+
   graphics handler for u8glib
-  
+
   m2tklib = Mini Interative Interface Toolkit Library
-  
+
   Copyright (C) 2012  olikraus@gmail.com
 
   This program is free software: you can redistribute it and/or modify
@@ -26,7 +26,7 @@
 #ifndef _M2GHU8G_H
 #define _M2GHU8G_H
 
-#include "utility/m2.h"
+#include "m2.h"
 
 /* StPi fix for change in parent library */
 #include "clib/u8g.h"
@@ -63,7 +63,7 @@ extern uint8_t m2_u8g_normal_focus_shadow_color;
 extern uint8_t m2_u8g_normal_focus_frame_color;
 extern uint8_t m2_u8g_normal_focus_bg_color;
 
-extern uint8_t m2_u8g_small_focus_bg_color;		
+extern uint8_t m2_u8g_small_focus_bg_color;
 extern uint8_t m2_u8g_exit_data_entry_color;
 
 extern uint8_t m2_u8g_background_color;
@@ -73,14 +73,14 @@ extern uint8_t m2_u8g_background_color;
 /*
 
 logic:
-  1. Part: Focus 
+  1. Part: Focus
   2. Part: Highlight
   Parts:
     b = Box
     f = Frame
     fs = Shadow Frame
 
-    ffs: 
+    ffs:
       focus: shadow frame
       highlight: shadow frame
       highlight+focus: shadow frame with inverted content
@@ -94,7 +94,7 @@ uint8_t m2_gh_dogxl160(m2_gfx_arg_p arg);
 */
 /* graphics handler for the u8glib */
 
-/* 
+/*
   fb
   focus: frame
   highlight: box
@@ -103,7 +103,7 @@ uint8_t m2_gh_dogxl160(m2_gfx_arg_p arg);
 
 uint8_t m2_gh_u8g_fb(m2_gfx_arg_p arg);
 
-/* 
+/*
   bf
   focus: box
   highlight: frame
@@ -111,7 +111,7 @@ uint8_t m2_gh_u8g_fb(m2_gfx_arg_p arg);
 */
 uint8_t m2_gh_u8g_bf(m2_gfx_arg_p  arg);
 
-/* 
+/*
   bfs   --> my favorit style
   focus: box
   highlight: frame with shadow
@@ -120,7 +120,7 @@ uint8_t m2_gh_u8g_bf(m2_gfx_arg_p  arg);
 uint8_t m2_gh_u8g_bfs(m2_gfx_arg_p  arg);
 
 
-/* 
+/*
   ffs
   focus: frame with shadow
   highlight: frame with shadow
@@ -165,7 +165,7 @@ void m2_u8g_draw_box(uint8_t x0, uint8_t y0, uint8_t w, uint8_t h);
 //uint8_t m2_u8g_get_icon_width(uint8_t font, uint8_t icon);
 const u8g_fntpgm_uint8_t *m2_u8g_get_font(uint8_t font);
 uint8_t m2_gh_u8g_base(m2_gfx_arg_p  arg);
- 
+
 #ifdef __cplusplus
 }
 #endif
